@@ -14,7 +14,7 @@ input, textarea, select {margin:0; padding:0px;}
 /* -------------------------------------------- */
 /* ------------------Style--------------------- */
 html, body {width:100%; padding:0; margin:0;}
-body {background: url("http://wallpapers.windowsace.com/pics/-/g/-gray-silver-wallpaper-1900x1200-download-free-desktop-wallpapers-a-l-ibackgroundz.com.jpg") fixed; color: #281452; font: 14px/25px Arial, Helvetica, sans-serif;}
+body {background: url("../images/fondo.jpg") fixed; color: #281452; font: 14px/25px Arial, Helvetica, sans-serif;}
 body.body2 {background: url('../images/fondo.jpg') fixed ; color: #281452; font: 14px/25px Arial, Helvetica, sans-serif;}
 
 a{color: #949494;text-decoration: none;}
@@ -117,7 +117,7 @@ nav .wrap-nav{height: 58px;background: black; border:3px solid #C0C0C0;}
 #sidebar{}
 #sidebar .box{margin-bottom:20px;}
 #sidebar .heading{}
-#sidebar .heading h2{font-size:24px; line-height:30px; color: #ffffff; margin-bottom: 20px; font-family: Impact,Charcoal,sans-serif; font-weight: normal; text-transform: uppercase;}
+#sidebar .heading h2{font-size:24px; line-height:30px; color: #ff8000; margin-bottom: 20px; font-family: Impact,Charcoal,sans-serif; font-weight: normal; text-transform: uppercase;}
 #sidebar .content{padding:15px}
 #sidebar .content img{float:left; margin:0px 10px 10px 0px; border: 3px solid #555555;}
 #sidebar .content ul{list-style-type:none;}
