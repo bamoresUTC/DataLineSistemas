@@ -19,6 +19,10 @@ public class Application extends Controller {
 		
 		
 	}
+	
+	public static void indexforo() {
+		render();
+	}
 
 	public static void iniciarsesion() {
 		Estudiante e=iniciar();
