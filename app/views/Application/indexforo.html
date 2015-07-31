@@ -103,6 +103,21 @@
 			<div id="sidebar" class="content" id="content">
 				<div  class="heading">
 					<center><h2>CATEGORIAS</h2></center>
+					
+					
+					<table>
+	
+	#{list items: cate, as:'c'}
+		<tr>
+		<td>${c.nombre}</td>
+		</tr>
+		#{/list}
+		 
+	<td> </td>
+	</tr>
+	
+	
+	</table>
 				</div>
 				<div class="box-blue">
 					<div id="ddbox_36" class="title_box">
