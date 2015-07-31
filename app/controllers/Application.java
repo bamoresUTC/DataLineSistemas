@@ -17,9 +17,9 @@ public class Application extends Controller {
 	
 	private static Categoria inicializar() {
 		Categoria cat;
-			cat =new Categoria(1,"Programacion orietada");
+			cat =new Categoria(1,"Programacion orientada a objeto ");
 			cat.save();
-			cat =new Categoria(2,"Estructura");
+			cat =new Categoria(2,"Estructura de datos ");
 			cat.save();
 			return cat;
 		}

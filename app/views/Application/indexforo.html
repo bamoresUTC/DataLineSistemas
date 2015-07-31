@@ -105,19 +105,7 @@
 					<center><h2>CATEGORIAS</h2></center>
 					
 					
-					<table>
-	
-	#{list items: cate, as:'c'}
-		<tr>
-		<td>${c.nombre}</td>
-		</tr>
-		#{/list}
-		 
-	<td> </td>
-	</tr>
-	
-	
-	</table>
+			
 				</div>
 				<div class="box-blue">
 					<div id="ddbox_36" class="title_box">
@@ -126,9 +114,10 @@
 						</h3>
 					</div>
 					<ul class="content_box">
-						<li></li>
-						<li><a> . ENCAPSULAMIENTO</a></li>
-						<li><a>. POLIMORFISMO</a></li>
+						#{list items: cate, as:'c'}
+						<li><a> ${c.nombre}</a></li>
+							<br>
+					#{/list}
 					</ul>
 					<div class="clear"></div>
 				</div>
@@ -143,25 +132,11 @@
 							href="http://www.forosdelweb.com/external.php?type=RSS2&forumids=39">RSS</a>
 					</div>
 					<ul class="content_box">
-						<li><a href="http://www.forosdelweb.com/f18/" class="item_3"
-							id="forumlink_18">PHP</a></li>
+					#{list items: cate, as:'c'}
 						<li><a href="http://www.forosdelweb.com/f13/" class="item_2"
-							id="forumlink_13">Javascript</a></li>
-						<li><a href="http://www.forosdelweb.com/f179/" class="item_2"
-							id="forumlink_179">Jquery</a></li>
-						<li class="spacer"></li>
-						<li><a href="http://www.forosdelweb.com/f130/" class="item_1"
-							id="forumlink_130">Python</a></li>
-						<li><a href="http://www.forosdelweb.com/f177/" class="item_1"
-							id="forumlink_177">Node.js</a></li>
-						<li><a href="http://www.forosdelweb.com/f165/" class="item_1"
-							id="forumlink_165">Android</a></li>
-						<li><a href="http://www.forosdelweb.com/f78/" class="item_1"
-							id="forumlink_78">ASPX (.net)</a></li>
-						<li><a href="http://www.forosdelweb.com/f105/" class="item_1"
-							id="forumlink_105">Ruby</a></li>
-						<li><a href="http://www.forosdelweb.com/f171/" class="item_1"
-							id="forumlink_171">GIT</a></li>
+							id="forumlink_13">${c.nombre}</a></li>
+					#{/list}
+						
 					</ul>
 					<div class="clear"></div>
 				</div>
